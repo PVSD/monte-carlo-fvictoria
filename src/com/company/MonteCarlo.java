@@ -19,6 +19,7 @@ public class MonteCarlo {
     {
         return rndm.nextDouble()*h;
     }
+
     public boolean insideCircle(double x,double y)
     {
         if (Math.pow(x-h,2)+Math.pow(y-k,2)<=Math.pow(r,2))
