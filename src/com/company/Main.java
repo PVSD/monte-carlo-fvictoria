@@ -8,7 +8,7 @@ public class Main {
 
         for(int i = 0; i <100;i++)
         {
-            mcObj.insideCircle(mcObj.nextRainDrop_x(),mcObj.nextRainDrop_y());
+            if(mcObj.insideCircle(mcObj.nextRainDrop_x(),mcObj.nextRainDrop_y()));
 
             cirCount++;
             sqrCount++;
